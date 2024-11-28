@@ -33,7 +33,7 @@ Just three commands need to work:
    ` sudo apt update`
 
    ` sudo apt install -y netcat`
-5. Once netcat is installed, connect to the server using:: `nc localhost 8080`
+5. Once netcat is installed, connect to the server using: `nc localhost 8080`
 6. You will be prompted to enter a username. Type in your desired username and hit Enter. To add more users, repeat `step 4` in additional terminals. You can have as many users as needed.
 7. After connecting, you can type messages to chat with other users. You can also use the following commands: `/users` , `/quit` and `hello` 
 
