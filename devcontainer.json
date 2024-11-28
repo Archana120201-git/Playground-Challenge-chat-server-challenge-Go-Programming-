@@ -1,8 +1,5 @@
 {
   "name": "Chat Server Development",
-  "build": {
-    "dockerfile": "Dockerfile" // Reference to your Dockerfile
-  },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
   },
