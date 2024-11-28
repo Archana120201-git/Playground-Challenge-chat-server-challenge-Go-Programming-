@@ -27,7 +27,7 @@ Just three commands need to work:
 ## Getting Started
 
 1. Start with the provided code in `server.go` and fill in your TODO's.
-2. Open the terminal and run the server: `go run server.go`
+2. Open the terminal and run the server:`go run server.go`
 3. Open a new terminal and install netcat using the following commands:
 
    ` sudo apt update`
