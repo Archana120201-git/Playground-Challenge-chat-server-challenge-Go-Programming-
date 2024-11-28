@@ -1,9 +1,15 @@
 {
   "name": "Chat Server Development",
-  "image": "mcr.microsoft.com/devcontainers/go:1.21", // Go environment
+  "build": {
+    "dockerfile": "Dockerfile" // Reference to your Dockerfile
+  },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
   },
-  "extensions": ["golang.go"], // Add useful extensions
-  "postCreateCommand": "go mod tidy" // Ensure dependencies are set up
+  "extensions": [
+    "golang.go" // Go extension
+  ],
+  "postCreateCommand": "go mod tidy", // Ensure dependencies are set up
+  "forwardPorts": [8080] // Forward port 8080 for chat server access
 }
+
